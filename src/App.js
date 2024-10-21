@@ -8,20 +8,9 @@
 // function App() {
 //   return (
 //     <div>
-    // <div>
     //   <Login/>
     // </div> 
-//     <div>
-//       <BrowserRouter>
-//         <Navbar/>
-//           <Routes>
-//             <Route path='/'exact element={<Login/>}/>
-//             <Route path='/Details' element={<details/>}/>
-//           </Routes>
-//       </BrowserRouter>
-//     </div>
-//     </div>
-    
+
 //   )
 
 // }

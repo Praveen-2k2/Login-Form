@@ -44,29 +44,6 @@ const Login = () => {
 
   const [error, setError] = useState({});
 
-  // const onchangeHandler = (e) => {
-  //   const { name, value } = e.target;
-  
-  //   const regexMap = {
-  //     firstName: /^[a-zA-Z ]+$/,
-  //     lastName: /^[a-zA-Z0-9 ]*$/,
-  //     email: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/,
-  //     mobileNumber: /^\d+$/
-  //   };
-  
-  //   const validationConditions = {
-  //     firstName: regexMap.firstName.test(value) || value === "",
-  //     lastName: regexMap.lastName.test(value) || value === "",
-  //     email: value === "" || regexMap.email.test(value),
-  //     mobileNumber: (regexMap.mobileNumber.test(value) || value === "") && value.length <= 10,
-  //   };
-  
-  //   if (validationConditions[name]) {
-  //     setUser({ ...user, [name]: value });
-  //   }
-  //   handleValidate(e);
-  // };
-
   const onchangeHandler = (e) => {
     const { name, value } = e.target;
     // console.log('e target', e.target.name)
